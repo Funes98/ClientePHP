@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+}
+
+.menu {
+    flex: 1;
+    margin: 20px;
+    margin:0 auto;
+}
+
+.añadir {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+table {
+    
+    border-collapse: collapse;
+    margin-top: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin:0 auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 12px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e2e6ea;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+
